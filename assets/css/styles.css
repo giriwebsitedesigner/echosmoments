@@ -134,7 +134,7 @@ a {
   place-items: center;
   justify-self: end;
   border: 1px solid rgba(44, 41, 37, 0.14);
-  border-radius: 999px;
+  border-radius: 8px;
   background: rgba(255, 253, 248, 0.82);
   color: var(--ink);
   cursor: pointer;
@@ -1359,6 +1359,7 @@ textarea {
     min-width: 230px;
     gap: 2px;
     border: 1px solid rgba(255, 253, 248, 0.72);
+    border-radius: 10px;
     background: rgba(255, 253, 248, 0.94);
     box-shadow: 0 24px 55px rgba(28, 23, 18, 0.16);
     backdrop-filter: blur(18px);
